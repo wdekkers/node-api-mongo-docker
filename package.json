@@ -1,0 +1,40 @@
+{
+  "name": "skunks.nl",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "docker-compose up -d && migrit import default",
+    "start": "npm-run-all --parallel eslint:watch start:api-watch ",
+    "start:api-watch": "node_modules/babel-watch/babel-watch.js www/api.js",
+    "start:api": "babel-node www/api.js",
+    "stop": "docker-compose stop",
+    "eslint": "eslint www",
+    "eslint:watch": "node_modules/eslint-watch/bin/esw www",
+    "build": "rm -rf build && babel-node etc/scripts/build.js",
+    "test": "node_modules/jasmine/bin/jasmine.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "migrit": "^0.1.10",
+    "mongodb": "^2.2.14",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-watch": "^2.0.4",
+    "eslint": "^3.12.0",
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-watch": "^2.1.14",
+    "jasmine": "^2.5.2",
+    "migrit": "^0.1.10",
+    "npm-run-all": "^3.1.2",
+    "routest": "^0.3.7"
+  }
+}

@@ -1,0 +1,10 @@
+mongo:
+  image: mongo
+  ports:
+    - "27017:27017"
+  volumes:
+    - ./etc/php:/usr/local/etc/php
+  log_driver: "json-file"
+  log_opt:
+    max-size: "100k"
+    max-file: "2"

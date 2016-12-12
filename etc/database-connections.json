@@ -1,0 +1,37 @@
+{
+  "connections": {
+    "local": {
+      "mongo": true
+    , "host": "localhost"
+    , "database": "skunks"
+    , "port": "27017"
+    , "user": ""
+    , "password": ""
+    }
+  , "testing": {
+      "mongo": true
+    , "host": "127.0.0.1"
+    , "database": ""
+    , "port": "27017"
+    }
+  , "staging": {
+      "host": ""
+    , "port": ""
+    , "user": ""
+    , "password": ""
+    }
+  , "beta": {
+      "host": ""
+    , "port": ""
+    , "user": ""
+    , "password": ""
+    }
+  , "production": {
+      "mongo": true
+    , "host": "localhost"
+    , "port": "27017"
+    , "user": ""
+    , "password": ""
+    }
+  }
+}

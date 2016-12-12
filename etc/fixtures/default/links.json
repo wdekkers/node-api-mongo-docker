@@ -1,0 +1,6 @@
+{"_id":{"$oid":"584d818e7ca997747ac35483"},"title":"Can i use","description":"Check which browser tools are supported by which browser","tags":["css","js"],"url":"http://caniuse.com/"}
+{"_id":{"$oid":"584d81a47ca997747ac35484"},"title":"webpagetest.org","description":"Run as many tests as you want to see how fast or slow your page is","tags":["css","js","speed","testing"],"url":"http://www.webpagetest.org/"}
+{"_id":{"$oid":"584d81b57ca997747ac35485"},"title":"Bootstrap","description":"A CSS framework to make your life easier","tags":["css","js","bootstrap","framework"],"url":"http://getbootstrap.com/"}
+{"_id":{"$oid":"584d81ca7ca997747ac35486"},"title":"HTTP2 Test","description":"Check if your webpage has HTTP2 support","tags":["speed","testing"],"url":"https://tools.keycdn.com/http2-test"}
+{"_id":{"$oid":"584d81d37ca997747ac35487"},"title":"Google page speed insights","description":"Check what Google thinks of your webpage","tags":["speed","testing","google","UX"],"url":"https://developers.google.com/speed/pagespeed/insights/"}
+{"_id":{"$oid":"584d81e37ca997747ac35488"},"title":"Lighthouse, check if your website is a progressive ","description":"Check what Google thinks of your webpage","tags":["speed","testing","google","UX"],"url":"https://developers.google.com/speed/pagespeed/insights/"}
